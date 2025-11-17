@@ -1,0 +1,84 @@
+body {
+    background: radial-gradient(circle at top, #0b2a66 0%, #061a3a 70%);
+    color: #e8e8ff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    background: rgba(22, 12, 60, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(123, 44, 255, 0.4);
+    padding: 32px 24px 24px 24px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+}
+
+.app-icon {
+    display: block;
+    width: 88px;
+    height: 88px;
+    border-radius: 18px;
+    margin: 0 auto 18px auto;
+    box-shadow: 0 0 18px rgba(255, 77, 240, 0.5);
+}
+
+h1 {
+    font-size: 2.1rem;
+    margin: 0 0 8px 0;
+    letter-spacing: 0.5px;
+    color: #ff4df0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #b37aff;
+    font-weight: 400;
+    margin: 0 0 18px 0;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 26px;
+    color: #e4dcff;
+    line-height: 1.6;
+}
+
+.developer-info {
+    font-size: 0.95rem;
+    color: #d7cfff;
+    margin-top: 18px;
+}
+
+.developer-info a {
+    color: #ffb300;
+    text-decoration: none;
+    font-weight: 600;
+}
+.developer-info a:hover {
+    color: #ffdf70;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98vw;
+        padding: 16px 4vw 18px 4vw;
+    }
+    .app-icon {
+        width: 64px;
+        height: 64px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.97rem;
+    }
+}
